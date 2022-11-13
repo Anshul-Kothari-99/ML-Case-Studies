@@ -1,0 +1,16 @@
+To predict the prices of houses. 
+
+Suppose you are selling your house and you want to know what a good market price would be.
+
+The file ex1data2.txt contains a training set of housing prices in Portland, Oregon. The first column is the size of the house (in square feet), the second column is the number of bedrooms, and the third column is the price of the house
+
+To implement linear regression with multiple variables to predict the prices of houses.
+Execute the outline and the framework code through the scripts ex1 multi.m file. This scripts will set up the dataset for the problem and make calls to functions.
+
+This will Include:
+- Plotting the Data
+- Feature Normalization
+- Gradient Descent
+- Selecting learning rates
+- Normal Equations
+- Finally Profit Prediction

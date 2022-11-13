@@ -1,0 +1,22 @@
+To Recognize / predict the Hand written Digits. 
+
+Automated handwritten digit recognition is widely used today - from recognizing zip codes (postal codes) on mail envelopes to recognizing amounts written on bank checks.
+
+The file ex3data1.mat contains 5000 training examples of handwritten digits(from 0 to 9) where each training example is a 20 pixel by 20 pixel grayscale image of the digit. 
+Each pixel is represented by a floating point number indicating the grayscale intensity at that location. 
+The 20 by 20 grid of pixels is “unrolled” into a 400-dimensional vector. 
+Each of these training examples becomes a single row in our data matrix X. This gives us a 5000 by 400 matrix X where every row is a training example for a handwritten digit image
+
+To implement one-vs-all logistic regression and neural networks to recognize hand-written digits.. 
+Execute the outline and the framework code through the scripts ex3.m file for one-vs-all logistic regression and ex3_nn.m for neural networks. This scripts will set up the dataset for the problem and make calls to functions.
+
+One-vs-All Logistic Regression will include:
+- Visualizing the data
+- Function vectorized implementation for Computing the cost J(θ)
+- Function vectorized implementation for finding the parameter θ through Gradient Descent (Regularized).
+- One-vs-all Classification Model Training
+- One-vs-all Prediction
+
+Neural Networks will include:
+- Model representation
+- Feedforward Propagation and Prediction

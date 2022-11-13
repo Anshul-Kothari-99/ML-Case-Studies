@@ -1,0 +1,22 @@
+To implement regularized linear regression and use it to study models with different bias-variance properties. 
+
+In the first half of the exercise, we will implement regularized linear regression to predict the amount of water flowing out of a dam using the change of water level in a reservoir. 
+In the next half, we will go through some diagnostics of debugging learning algorithms and examine the effects of bias vs variance.
+
+The dataset contains historical records on the change in the water level (x) and the amount of water flowing out of the dam (y). This dataset is divided into three parts:
+• A training set that your model will learn on: X, y
+• A cross validation set for determining the regularization parameter: Xval, yval
+• A test set for evaluating performance. These are “unseen” examples which your model did not see during training: Xtest, ytest
+
+An important concept in machine learning is the bias-variance tradeoff. Models with high bias are not complex enough for the data and tend to underfit, while models with high variance overfit to the training data.
+We will plot training and test errors on a learning curve to diagnose bias-variance problems
+Execute the outline and the framework code through the scripts ex5.m file. This scripts will set up the dataset for the problem and make calls to functions.
+
+This will Include:
+- Visualizing the Dataset
+- Regularized Linear Regression implementation
+- Learning Curves
+- Based upon results - Polynomial Regression implementation
+- Selecting Regularization Parameter(λ) using a Cross Validation set
+- Computing Test Set Error
+- Plotting Learning Curves with randomly selected examples

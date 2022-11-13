@@ -1,0 +1,24 @@
+To Compress and Restore an Image.
+
+Despite the slight loss in picture quality, compression is an extremely powerful tool that helps to optimize the user experience, helps to save space on your hard drive / Servers etc..
+
+To implement the K-means clustering algorithm for image compression. 
+In the second part, To implement principal component analysis to find a low-dimensional representation of face images..
+
+Execute the outline and the framework code through the scripts ex7.m file for K-means clustering algorithm and ex7_pca.m for Principlal Component Analysis for Dimentionality Reduction.
+These scripts will set up the dataset for the problem and make calls to functions.
+
+K-means clustering algorithm will include:
+- Finding closest centroids
+- Computing centroid means
+- K-means on example dataset
+- Random initialization
+- Image compression with K-means
+- K-means on pixels
+- Image Reconstruction 
+- Use your own image
+
+Principal Component Analysis will include:
+- Data Visualization
+- PCA Implementation
+- Dimensionality Reduction with PCA - Projecting data onto the principal components; Reconstructing an approximation of the data; Visualizing the projections; 

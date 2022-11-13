@@ -1,0 +1,15 @@
+To predict profits for a food truck. 
+
+Suppose you are the CEO of a restaurant franchise and are considering different cities for opening a new outlet. The chain already has trucks in various cities and you have data for profits and populations from the cities.
+
+The file ex1data1.txt contains the dataset for our linear regression problem. The first column is the population of a city and the second column is the profit of a food truck in that city. A negative value for profit indicates a loss.
+
+To build a linear regression model that helps to select which city to expand to next.. 
+Execute the outline and the framework code through the scripts ex1.m file. This scripts will set up the dataset for the problem and make calls to functions.
+
+This will Include:
+- Plotting the Data
+- Function implementation for Computing the cost J(θ)
+- Plot the cost over a 2-dimensional grid of θ0 and θ1 values. Also produce surface and contour plots of J(θ).
+- Gradient descent will fit the linear regression parameters θ to our Hypothesis.
+- Finally Profit Prediction

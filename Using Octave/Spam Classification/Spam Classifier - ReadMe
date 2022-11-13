@@ -1,0 +1,15 @@
+Many email services today provide spam filters that are able to classify emails into spam and non-spam email with high accuracy. Here we will make an attempt to build our own spam filter using SVMs.
+
+The dataset included for this exercise is based on a a subset of the SpamAssassin Public Corpus. For the purpose of this exercise, we will only be using the body of the email (excluding the email headers).
+
+To build our own spam filter using SVMs.. 
+Execute the outline and the framework code through the script ex6 spam.m file. This scripts will set up the dataset for the problem and make calls to functions.
+
+This will Include:
+- Preprocessing Emails
+- Vocabulary List - to choose words we would like to use for our classifier.
+- Extracting Features from Emails - Whether the featured word in the dictionary occurs in the email.
+- Training SVM for Spam Classification
+- Top Predictors for Spam
+- Try your own emails
+- Build your own dataset

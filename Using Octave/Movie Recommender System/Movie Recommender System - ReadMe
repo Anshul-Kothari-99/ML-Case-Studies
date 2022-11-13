@@ -1,0 +1,14 @@
+To implement the Collaborative Filtering Learning Algorithm to build a recommender system for movies. 
+
+The objective of collaborative filtering is to predict movie ratings for the movies that users have not yet rated. 
+This will allow us to recommend the movies with the highest predicted ratings to the user.
+
+The file ex8_movies.mat contains the dataset for our Collaborative Filtering Learning Algorithm providing the variables Y and R.
+The matrix Y (a num_movies × num_users matrix) stores the ratings y(i,j) (from 1 to 5). The matrix R is an binary-valued indicator matrix, where R(i, j) = 1 if user j gave a rating to movie i, and R(i, j) = 0 otherwise.
+ 
+Execute the outline and the framework code through the scripts ex8_cofi.m file. This scripts will set up the dataset for the problem and make calls to functions.
+
+This will Include:
+- Collaborative Filtering Learning Algorithm implementation - Computing Regularized Cost Function and Gradients
+- Gradient Checking - to numerically check the implementation of your gradients.
+- Learning movie recommendations

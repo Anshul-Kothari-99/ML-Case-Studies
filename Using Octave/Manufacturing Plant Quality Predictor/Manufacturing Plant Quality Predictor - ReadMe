@@ -1,0 +1,17 @@
+To predict whether microchips from a fabrication plant passes quality assurance (QA). During QA, each microchip goes through various tests to ensure it is functioning correctly.
+
+Suppose you are the product manager of the factory and you have the test results for some microchips on two different tests. From these two tests, you would like to determine whether the microchips should be accepted or rejected. To help you make the decision, you have a dataset of test results on past microchips
+
+The file ex2data2.txt contains the dataset for our regularized logistic regression.
+
+One way to fit the data better is to create more features from each data point. Hence, we will map the features into all polynomial terms of x1 and x2 up to the sixth power. As a result of this mapping, our vector of two features (the scores on two QA tests) has been transformed into a 28-dimensional vector. 
+ 
+Execute the outline and the framework code through the scripts ex2 reg.m file. This scripts will set up the dataset for the problem and make calls to functions.
+
+This will Include:
+- Visualizing the data
+- Feature mapping
+- Cost function and gradient Implementation
+- Learning parameters using fminunc
+- Plotting the decision boundary
+- Try out different regularization parameters

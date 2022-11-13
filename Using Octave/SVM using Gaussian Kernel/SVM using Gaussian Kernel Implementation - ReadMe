@@ -1,0 +1,7 @@
+To use Support Vector Machines (SVMs) with various example 2D datasets. Experimenting how to use a Gaussian kernel with SVMs. 
+
+Execute the outline and the framework code through the script ex6.m file. This scripts will set up the dataset for the problem and make calls to functions.
+
+This will Include:
+- Separating Dataset by a Linear Boundary and try using different values of the C - parameter with SVMs 
+- Using SVMs to do Non-Linear Classification with Gaussian Kernel and test the same upon multiple non Linearly Seperable Datasets.

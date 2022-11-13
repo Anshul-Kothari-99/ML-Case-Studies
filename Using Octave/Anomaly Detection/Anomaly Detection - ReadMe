@@ -1,0 +1,15 @@
+To apply anomaly detection algorithm to detect failing servers on a network / To detect the anomalous behavior in server computers.
+
+The features measure the throughput (mb/s) and latency (ms) of response of each server. 
+You suspect that the vast majority of the examples are “normal” (non-anomalous) examples of the servers operating normally, but there might also be some examples of servers acting anomalously within this dataset.
+
+The Dataset contains m = 307 examples of how the computers are behaving, and thus have an unlabeled dataset {x(1), . . . , x(m)}.
+
+To use a Gaussian model for detecting anomalous examples in our dataset.. 
+Execute the outline and the framework code through the script ex8.m file. This scripts will set up the dataset for the problem and make calls to functions.
+
+This will Include:
+- Gaussian distribution Function
+- Estimating parameters for our Gaussian Distribution Function
+- Selecting the threshold, ε based upon F1 score (Computed using precision and recall) 
+- High dimensional dataset - Implementing the anomaly detection algorithm on a much more realistic hence high dimensional dataset where each example is described by 11 features, capturing more properties of compute servers.
